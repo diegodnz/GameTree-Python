@@ -1,3 +1,12 @@
+"""
+Universidade Federal de Pernambuco - UFPE
+Projeto IF969 - ALGORITMOS E ESTRUTURAS DE DADOS
+Curso: Sistemas de Informação
+Ultima modificação: 11/12/2019
+Autor: Alisson Diego Diniz D. Da Fonseca (adddf@cin.ufpe.br)
+"""
+
+
 from GameTree import *
 import os
 

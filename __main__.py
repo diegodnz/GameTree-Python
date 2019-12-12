@@ -1,10 +1,19 @@
+"""
+Universidade Federal de Pernambuco - UFPE
+Projeto IF969 - ALGORITMOS E ESTRUTURAS DE DADOS
+Curso: Sistemas de Informação
+Ultima modificação: 11/12/2019
+Descrição: O algoritmo pode criar e utilizar uma árvore de jogo para escolher o melhor movimento da máquina no jogo
+Autor: Alisson Diego Diniz D. Da Fonseca (adddf@cin.ufpe.br)
+"""
+
+
 from Misere import *
 from Wild import *
 from Arquivo_e_Entradas import *
 from Player_e_Maquina import *
 import os
 import time
-
 
 def inicioJogo(nomeJogo, arvore):
     """Retorna a classe do jogo. Serve tanto para criar pela primeira vez, quanto para reiniciar o jogo caso o
