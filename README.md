@@ -1,6 +1,6 @@
 # GameTree-Python
 ## Descrição
-Projeto IF969 - ALGORITMOS E ESTRUTURAS DE DADOS (CIn - UFPE)
+Projeto da cadeira IF969 - ALGORITMOS E ESTRUTURAS DE DADOS (CIn - UFPE).
 Analisa cada possibilidade de jogada em uma árvore de jogo para a escolha do melhor movimento possível. 
 Possui 3 variantes do TicTacToe: Tradicional, Wild e Misere
 ## Modos de Jogo
