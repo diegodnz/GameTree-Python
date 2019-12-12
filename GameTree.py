@@ -2,7 +2,7 @@
 Universidade Federal de Pernambuco - UFPE
 Projeto IF969 - ALGORITMOS E ESTRUTURAS DE DADOS
 Curso: Sistemas de Informação
-Ultima modificação: 11/12/2019
+Ultima modificação: 12/12/2019
 Autor: Alisson Diego Diniz D. Da Fonseca (adddf@cin.ufpe.br)
 """
 
@@ -133,7 +133,7 @@ class GameTree:
                 if vez == 'Oponente' and adjacente.valor > vertice.valor:
                     vertice.valor = adjacente.valor-1
                 elif vez == 'Maquina' and adjacente.valor < vertice.valor:
-                    vertice.valor = adjacente.valor+1
+                    vertice.valor = adjacente.valor
                 self.dicVertices[vertice][adjacente] = adjacente.valor
 
         # Quando o vértice não tem adjacentes, ele representa o fim de jogo
